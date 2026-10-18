@@ -49,18 +49,7 @@ Heart disease is the leading cause of death worldwide, and it is often diagnosed
 
 ---
 
-## 📈 Key Findings
 
-### 1. Risk Indicators
-📌 *Insight:* Patients with heart disease tend to be older (median age 57 vs. 51), reach a lower maximum heart rate (median 126 vs. 150 bpm), and more often have exercise-induced angina (62% vs. 13%) and high fasting blood sugar (34% vs. 11%). `ST_Slope` has the strongest correlation with heart disease (−0.56).
-
-### 2. Classification
-📌 *Insight:* The 80/20 split performed best for both criteria. **Information Gain** reached the highest accuracy (**81.0%**) and sensitivity (81.8%), while the **Gini Index** had higher specificity (81.1%) and precision (86.3%).
-
-### 3. Clustering
-📌 *Insight:* K = 2 gave the best silhouette score (0.20), but the low score shows that patient groups overlap. With labeled data available, classification gives more reliable risk predictions than clustering.
-
----
 
 ## 🧠 Conclusion
 
